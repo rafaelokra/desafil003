@@ -43,7 +43,7 @@ body::before{
  content: '';
  position: absolute;
 width: 750px;
-height: 1084px;
+height: 1125px;
 left: 345px;
 top: 320px;
 background: #FFFFFF;
@@ -367,12 +367,275 @@ border: 1px solid #E6E6F0;
     height: 56px;
     width: 622px;
     left: 24px;
-   top:150px;
+    top:150px;
     border-radius: 8px;
   
     background: #FAFAFC;
 
     border: 1px solid #E6E6F0;
-border-radius: 8px;
+    border-radius: 8px;
+}
+.hora legend{
+    height: 34px;
+    width: 238px;
+    left: 409px;
+    top: 990px;
+    border-radius: nullpx;
+
+    position: absolute;
+    left: 31%;
+    right: 55.04%;
+    top: 145%;
+    bottom: 46.94%;
+    color: #535971;
+
+}
+.hora img{
+    height: 0px;
+    width: 622px;
+    left: 409px;
+    top: 1032px;
+    border-radius: 0px;
+    
+
+    position: absolute;
+    left: 31%;
+    right: 28.4%;
+    top:152%;
+    bottom: 46.53%;
 }
 
+
+.dias legend{
+    position: absolute;
+    left: 31%;
+    right: 61.93%;
+    top: 155%;
+    bottom: 43.11%;
+
+    font-family: 'Staatliches';
+    font-size: 20px;
+
+    
+}
+.dias label{
+    height: 24px;
+    width: 35px;
+    left: 409px;
+    top: 1106px;
+   
+    position: absolute;
+    left: 31%;
+    top: 164%;
+   
+    font-family: 'Poppins';
+    color: #4E4958;
+    font-size: 14px;
+}
+.dias span{
+    font-family: 'Poppins';
+    font-size: 12px;
+    
+}
+.dias input{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 31%;
+    top: 170%;
+   
+    height: 56px;
+    width: 300px;
+  
+   
+    border-radius: 8px;
+
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+    border: 1px solid #E6E6F0;
+  
+}
+.das label{
+    height: 24px;
+    width: 34px;
+    
+    position: absolute;
+    left: 55%;
+    top: 164%;
+   
+    color: #4E4958;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.das input{
+    height: 56px;
+    width: 140px;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 55%;
+    top: 170%;
+   
+   
+    background: #FAFAFC;
+    order: 1px solid #E6E6F0;
+    border: 1px solid #E6E6F0
+    
+}
+.ate label{
+    height: 24px;
+    width: 34px;
+    
+    position: absolute;
+    left: 66%;
+    top: 164%;
+   
+    color: #4E4958;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.ate input{
+    height: 56px;
+    width: 140px;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 66%;
+    top: 170%;
+   
+   
+    background: #FAFAFC;
+    order: 1px solid #E6E6F0;
+    border: 1px solid #E6E6F0
+    
+}
+
+
+
+.two-dias legend{
+    position: absolute;
+    left: 31%;
+    
+    top: 180%;
+    
+
+    font-family: 'Staatliches';
+    font-size: 20px;
+   
+    color: #535971;
+}.two-dias label{
+    position: absolute;
+    left: 31%;
+    top: 187%;
+    
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #4E4958;
+}
+.two-dias label span{
+    font-family: 'Poppins';
+    font-size: 12px;
+   
+}
+.two-dias input{
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 31%;
+    top: 193%;
+   
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0;
+    border-radius: 8px;
+
+    height: 56px;
+    width: 300px;
+    border-radius: 8px;
+
+}
+
+
+
+.two-das label{
+    height: 24px;
+    width: 34px;
+    
+    position: absolute;
+    left: 55%;
+    top: 187%;
+   
+    color: #4E4958;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.two-das input{
+    height: 56px;
+    width: 140px;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 55%;
+    top: 192.9%;
+   
+   
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0
+    
+}
+.two-ate label{
+    height: 24px;
+    width: 34px;
+    
+    position: absolute;
+    left: 66%;
+    top: 187%;
+   
+    color: #4E4958;
+
+    font-family: 'Poppins';
+    font-size: 14px;
+}
+.two-ate input{
+    height: 56px;
+    width: 140px;
+    border-radius: 8px;
+
+    box-sizing: border-box;
+
+    position: absolute;
+    left: 66%;
+    top: 192.9%;
+   
+    background: #FAFAFC;
+    border: 1px solid #E6E6F0
+}
+
+footer{
+    height: 160px;
+    width: 750px;
+    left: 345px;
+    top: 300%;
+
+    position: absolute;
+   
+
+    
+    
+
+}
+footer button{
+
+
+    background:  #535971;
+    border-radius: 0px 0px 20px 20px;
+}
