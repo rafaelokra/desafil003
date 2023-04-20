@@ -20,7 +20,7 @@
         </p>
     </header>
     
-    <form action="">
+    <form id="my-form">
         
            
                 <legend>Informações pessoais </legend>
@@ -53,8 +53,8 @@
                         </div>
                 </div>
             
-    </form>
-
+    
+            </form>
     <div class="mentor">
         <legend>Informações do mentor </legend>
 
@@ -111,9 +111,13 @@
          <input type="time"  id="event-end">
       </div>
 
-      <footer>
-        <button>Salvar</button>
-      </footer>
+    </form>
+    <footer>
+        <input  class="button"  type="submit" 
+        form="my-form"
+        value="Salvar">
+    </footer>
+</div>
   
 </body>
 </html>
